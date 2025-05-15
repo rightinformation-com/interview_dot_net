@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Interview
 {
-    //Ta klasa ma być serwisem używanym w środowisku webowym. Będzie używana jako singleton przez dependency injection.
+    //This class will be used as singleton in web project. It will be injected to other classes. 
     public class Class1
     {
         private IInterviewUserContex UserContex;
